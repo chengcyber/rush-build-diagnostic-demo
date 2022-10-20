@@ -21,5 +21,19 @@
     //    */
     //   "autoinstallerName": "plugins"
     // }
+    {
+      /**
+       * The name of the rush plugin package.
+       */
+      "packageName": "rush-audit-cache-plugin",
+      /**
+       * The name of the plugin provided by rush plugin package
+       */
+      "pluginName": "rush-audit-cache-plugin",
+      /**
+       * Autoinstaller name used to install the plugin.
+       */
+      "autoinstallerName": "rush-plugins"
+    }
   ]
 }
