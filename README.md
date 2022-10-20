@@ -39,4 +39,4 @@ You can see `rush audit-cache` reports there are 5 high risks. Let's explain the
 2. `"outputFolderNames" are not defined for build operation of project "external-file-access"` warns that no `"outputFolderNames"` configured for the build operation. ❗️
 3. `Writes /<absolute_path>/rush-build-diagnostic-demo/apps/external-file-access/dist/core.js` says that the building process writes to this file. This can be fixed by configuring `"dist"` folder as one of the `"outputFolderNames"` in 2. ❗️
 4. `Writes /<absolute_path>/rush-build-diagnostic-demo/apps/external-file-access/dist/index.js`, same as 3❗️
-5. `Writes /<absolute_path>/rush-build-diagnostic-demo/outside.log` shows the building process writes a log file under an external folder.
+5. `Writes /<absolute_path>/rush-build-diagnostic-demo/outside.log` shows the building process writes a log file under an external folder. ❌
